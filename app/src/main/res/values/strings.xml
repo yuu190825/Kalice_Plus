@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">KalicePlus</string>
+    <string name="buttonClearText">C</string>
+    <string name="buttonNegText">(-)</string>
+    <string name="buttonBSText"><![CDATA[<-]]></string>
+    <string name="buttonMRText">MR</string>
+    <string name="buttonMWText">MW</string>
+    <string name="buttonPowTwoText">^2</string>
+    <string name="buttonSqrtText">SR</string>
+    <string name="button7Text">7</string>
+    <string name="button8Text">8</string>
+    <string name="button9Text">9</string>
+    <string name="buttonDivText">/</string>
+    <string name="button4Text">4</string>
+    <string name="button5Text">5</string>
+    <string name="button6Text">6</string>
+    <string name="buttonMulText">*</string>
+    <string name="button1Text">1</string>
+    <string name="button2Text">2</string>
+    <string name="button3Text">3</string>
+    <string name="buttonSubText">-</string>
+    <string name="button0Text">0</string>
+    <string name="buttonDotText">.</string>
+    <string name="buttonEqualText">=</string>
+    <string name="buttonAddText">+</string>
 </resources>
