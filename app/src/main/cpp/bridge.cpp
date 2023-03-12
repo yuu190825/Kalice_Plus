@@ -2,7 +2,7 @@
 
 #include <jni.h>
 
-Calc *calc;
+Calc *calc = new Calc();
 
 extern "C"
 JNIEXPORT jobject JNICALL
