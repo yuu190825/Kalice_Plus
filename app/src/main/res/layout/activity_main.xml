@@ -47,7 +47,12 @@
                     android:id="@+id/seekBarOou"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:max="2"
+                    android:progress="1"
+                    android:progressBackgroundTint="#000000"
+                    android:progressTint="#00FFFFFF"
+                    android:thumbTint="#4682B4" />
 
                 <TextView
                     android:id="@+id/screenOou"
@@ -72,7 +77,11 @@
                     android:id="@+id/seekBarDot"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:max="3"
+                    android:progressBackgroundTint="#000000"
+                    android:progressTint="#00FFFFFF"
+                    android:thumbTint="#4682B4" />
 
                 <TextView
                     android:id="@+id/screenDot"
@@ -100,7 +109,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonClearText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Space
@@ -117,7 +126,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonNegText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -130,7 +139,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonBSText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -148,7 +157,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonMRText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -161,7 +170,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonMWText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -173,7 +182,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonPowTwoText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -186,7 +195,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonSqrtText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -203,7 +212,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button7Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -216,7 +225,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button8Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -228,7 +237,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button9Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -241,7 +250,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonDivText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
         </TableRow>
@@ -260,7 +269,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button4Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -273,7 +282,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button5Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -285,7 +294,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button6Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -298,7 +307,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonMulText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -315,7 +324,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button1Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -328,7 +337,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button2Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -340,7 +349,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button3Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -353,7 +362,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonSubText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -371,7 +380,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/button0Text"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -384,7 +393,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonDotText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -396,7 +405,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonEqualText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Button
@@ -409,7 +418,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/buttonAddText"
-                android:textSize="34sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
         </TableRow>
 

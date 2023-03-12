@@ -8,6 +8,7 @@ extern "C"
 JNIEXPORT jobject JNICALL
 Java_com_itoria_kaliceplus_MainActivity_setOouControl(JNIEnv *env, jobject thiz, jint my_value) {
     calc -> setOouControl(my_value);
+    return nullptr;
 }
 
 extern "C"
@@ -49,6 +50,7 @@ extern "C"
 JNIEXPORT jobject JNICALL
 Java_com_itoria_kaliceplus_MainActivity_memoryWrite(JNIEnv *env, jobject thiz) {
     calc -> memoryWrite();
+    return nullptr;
 }
 
 extern "C"
