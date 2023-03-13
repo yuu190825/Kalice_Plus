@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding.screenDot.text = "0"
 
         // Weight Listener
-        binding.seekBarOou.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener {
+        binding.seekBarOou.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
                 when (p1) {
                     0 -> binding.screenOou.text = getString(R.string.stringOut)
