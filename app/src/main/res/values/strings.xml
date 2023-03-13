@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KalicePlus</string>
+    <string name="app_name">Kalice++</string>
     <string name="buttonClearText">C</string>
     <string name="buttonNegText">(-)</string>
     <string name="buttonBSText"><![CDATA[<-]]></string>
